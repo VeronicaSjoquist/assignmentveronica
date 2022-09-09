@@ -1,14 +1,44 @@
 .App {
-  text-align: center;
-}
-
-.App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.FpHeader {
   color: white;
+  font-size: calc(30px + 2vmin);
+  text-align: center;
+  padding: 50px;
+  border-bottom: 4px solid white;
+}
+
+header {
+  background-color: #282c34;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: calc(10px + 2vmin);
+  padding: 30px;
+}
+
+nav {
+    background-color: #282c3479;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 15px;
+  padding: 10px;
+  width: 70px;
+  text-align: center;
+}
+
+a:visited {
+    color: white;
 }
