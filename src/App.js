@@ -1,11 +1,11 @@
 import "./App.css";
-import {} from "./components";
+import { TitleForm } from "./components";
 import { Link } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <div className="FpHeader">Welcome to my site!</div>
+      <TitleForm />
       <nav>
         <Link to="/home">Home</Link>
         <Link to="/about">About</Link>

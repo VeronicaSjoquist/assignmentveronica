@@ -1,3 +1,3 @@
-//import {react tag name} from "./alkfdngkg"
+import TitleForm from "./TitleForm";
 
-export {};
+export { TitleForm };
