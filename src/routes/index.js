@@ -1,4 +1,4 @@
-import Home from "./Home";
+import Quiz from "./Quiz";
 import About from "./About";
 
-export { Home, About };
+export { Quiz, About };

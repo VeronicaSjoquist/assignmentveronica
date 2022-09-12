@@ -1,16 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Home = () => {
+const Quiz = () => {
     return(
         <div>
-            <header>This is a Homepage</header>
+            <header>This is a Quizpage</header>
             <nav>
-                <Link to="../../">App</Link>
+                <Link to="../../">Home</Link>
                 <Link to="../about">About</Link>
             </nav>
         </div>
     )
 }
 
-export default Home;
+export default Quiz;

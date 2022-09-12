@@ -7,8 +7,8 @@ const About = () => {
         <div>
             <header>These are my pets</header>
             <nav>
-                <Link to="../../">App</Link>
-                <Link to="../home">Home</Link>
+                <Link to="../../">Home</Link>
+                <Link to="../quiz">Quiz</Link>
             </nav>
             <Pets/>
         </div>

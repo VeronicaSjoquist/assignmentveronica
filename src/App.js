@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <TitleForm />
       <nav>
-        <Link to="/home">Home</Link>
+        <Link to="/quiz">Quiz</Link>
         <Link to="/about">About</Link>
       </nav>
     </div>
