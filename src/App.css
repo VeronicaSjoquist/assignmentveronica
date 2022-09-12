@@ -13,6 +13,21 @@
   border-bottom: 4px solid white;
 }
 
+.quizDiv {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.smiley {
+  font-size: calc(100px + 2vmin);
+}
+
+.quizBtns {
+  display: flex;
+  justify-content: space-around;
+}
+
 header {
   background-color: #282c34;
   display: flex;
@@ -37,8 +52,5 @@ a {
   padding: 10px;
   width: 70px;
   text-align: center;
-}
-
-a:visited {
-    color: white;
+  color: white;
 }
