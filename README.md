@@ -1,70 +1,16 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<div>
+    <h1>React assignment by Veronica Sjöquist</h1>
+    <p>On the first page of the app there's a big header that welcomes to the page. Below the header is a form then a bold line to separate the navbar. The form arks you to input your name and there's an "enter" button.</p>
+    <img src="./public/Pics/screenshots/welcome-start.png" style="width: 500px; border: 3px solid black">
+    <p>If you enter a name in the form it changes the header and the doc-title(tab) to what you put in. This is done with useState hooks and also a useEffect for the doc-title.</p>
+    <img src="./public/Pics/screenshots/welcome-name.png" style="width: 500px; border: 3px solid black">
+    <p>On the quizpage there's a smaller header on the top and below that is the navbar in a faded colour and the main part of the page is white. The page is asking the user if they have any pets and displays a happy face and there's buttons "yes" and "no".</p>
+    <img src="./public/Pics/screenshots/quiz-yes.png" style="width: 400px; border: 3px solid black">
+    <p>If the user presses the "no" button the smiley changes to a sad face and if the "yes" button is pressed the happy face displays. This is done with a useState hook.</p>
+    <img src="./public/Pics/screenshots/quiz-no.png" style="width: 300px; border: 3px solid black">
+    <p>The aboutpage has the same basic layout as the quizpage. It displays the names and pictures of my pets.</p>
+    <img src="./public/Pics/screenshots/about.png" style="width: 400px; border: 3px solid black">
+    <p>Below each picture is a button to toggle the description, cat or dog. This is done with a useState hook. The colour of the description text is a prop passed down two levels.</p>
+    <img src="./public/Pics/screenshots/about-toggle.png" style="width: 200px; border: 3px solid black">
+</div>
